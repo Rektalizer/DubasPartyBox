@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Дисквалификация",
+        "description": "В крови таракана ROACH_NAME был обнаружен мельдоний! Он был снят с гонки!",
+        "effectSpeed": "speed = 0",
+        "effectDetermination": "determination = 0",
+        "effectLuck": "luck = 0"
+    },
+    {
+        "name": "Стероиды",
+        "description": "Таракан ROACH_NAME получил питательный укол стероидами прямо перед гонкой. Он стал гораздо опаснее...",
+        "effectSpeed": "speed = speed + 20",
+        "effectDetermination": "determination = determination + 20",
+        "effectLuck": "luck = luck"
+    },
+    {
+        "name": "Договорняк",
+        "description": "Таракан ROACH_NAME перешептывался о чём-то с букмекером. Кажется ведется закулисная игра...",
+        "effectSpeed": "speed = speed - 50",
+        "effectDetermination": "determination = determination - 50",
+        "effectLuck": "luck = luck"
+    },
+    {
+        "name": "Мотивация",
+        "description": "Таракан ROACH_NAME получил мощный заряд мотивации после того как от него ушла жена.",
+        "effectSpeed": "speed = speed",
+        "effectDetermination": "determination = determination + 25",
+        "effectLuck": "luck = luck"
+    },
+    {
+        "name": "В нереальной зоне",
+        "description": "ROACH_NAME В НЕРЕАЛЬНОЙ ЗОНЕ! ОХУЕТЬ!",
+        "effectSpeed": "speed = speed + 100",
+        "effectDetermination": "determination = determination + 100",
+        "effectLuck": "luck = luck + 100"
+    },
+    {
+        "name": "В хорошей форме",
+        "description": "ROACH_NAME хорошо поспал и покушал, а поэтому он в лучшей форме чем обычно.",
+        "effectSpeed": "speed = speed + 15",
+        "effectDetermination": "determination = determination + 15",
+        "effectLuck": "luck = luck + 15"
+    }
+]
